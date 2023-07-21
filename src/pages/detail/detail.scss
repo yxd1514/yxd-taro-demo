@@ -1,0 +1,53 @@
+
+.teleportId {
+  position: relative;
+}
+
+.detailArea {
+  padding: 3rem 0;
+}
+
+.detailItem {
+  margin: 0 auto;
+  width: 17rem;
+  border-radius: .3rem;
+  box-shadow: 0 0 .2rem #ccc;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: .6rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.detailTitle {
+  font-size: 1rem;
+  font-family: Poppins-Medium, Poppins;
+  font-weight: 500;
+  color: #05021E;
+  margin-bottom: 1rem;
+}
+
+.detailImage {
+  width: 15rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.detail-contain {
+  font-size: .7rem;
+  font-family: Poppins-Medium, Poppins;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.back {
+  color: blue;
+  text-decoration: underline;
+}
+
+.back:active {
+  color: rgb(103, 185, 233);
+}
+
