@@ -27,6 +27,11 @@ import './index.scss'
 import Modal from './Modal.vue'
 import { ref } from 'vue'
 import Taro from '@tarojs/taro'
+import image1 from '../../static/images/image1.jpg'
+import image2 from '../../static/images/image2.jpg'
+import image3 from '../../static/images/image3.jpg'
+import image4 from '../../static/images/image4.jpg'
+import image5 from '../../static/images/image5.jpg'
 console.log('setup run.');
 
 const showModal = ref(false)
@@ -34,27 +39,27 @@ const feeds = ref([
   {
     id: 1,
     title: '我们要面对的苦难和挫折不会因为我们遭遇够多而减少',
-    image: require('../../static/images/image1.jpg'),
+    image: image1,
   },
   {
     id: 2,
     title: '你可以靠透支身体',
-    image: require('../../static/images/image2.jpg'),
+    image: image2,
   },
   {
     id: 3,
     title: '我们最终都要远行',
-    image: require('../../static/images/image3.jpg'),
+    image: image3,
   },
   {
     id: 4,
     title: '这就是所谓的人生',
-    image: require('../../static/images/image4.jpg'),
+    image: image4
   },
   {
     id: 5,
     title: '去做最好的自己',
-    image: require('../../static/images/image5.jpg'),
+    image: image5
   },
 ])
 function tapOpenModal() {
