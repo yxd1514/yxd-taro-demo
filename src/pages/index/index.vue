@@ -39,27 +39,27 @@ const feeds = ref([
   {
     id: 1,
     title: '我们要面对的苦难和挫折不会因为我们遭遇够多而减少',
-    image: image1,
+    image: 'https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG?width=660&height=425&fit=crop&format=pjpg&auto=webp',
   },
   {
     id: 2,
     title: '你可以靠透支身体',
-    image: image2,
+    image: 'https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG?width=660&height=425&fit=crop&format=pjpg&auto=webp',
   },
   {
     id: 3,
     title: '我们最终都要远行',
-    image: image3,
+    image: 'https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG?width=660&height=425&fit=crop&format=pjpg&auto=webp',
   },
   {
     id: 4,
     title: '这就是所谓的人生',
-    image: image4
+    image: 'https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG?width=660&height=425&fit=crop&format=pjpg&auto=webp'
   },
   {
     id: 5,
     title: '去做最好的自己',
-    image: image5
+    image: 'https://www.recordnet.com/gcdn/presto/2021/03/22/NRCD/9d9dd9e4-e84a-402e-ba8f-daa659e6e6c5-PhotoWord_003.JPG?width=660&height=425&fit=crop&format=pjpg&auto=webp'
   },
 ])
 function tapOpenModal() {
