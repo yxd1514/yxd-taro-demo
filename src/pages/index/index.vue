@@ -27,11 +27,6 @@ import './index.scss'
 import Modal from './Modal.vue'
 import { ref } from 'vue'
 import Taro from '@tarojs/taro'
-import image1 from '../../../static/images/image1.jpg'
-import image2 from '../../../static/images/image2.jpg'
-import image3 from '../../../static/images/image3.jpg'
-import image4 from '../../../static/images/image4.jpg'
-import image5 from '../../../static/images/image5.jpg'
 console.log('setup run.');
 
 const showModal = ref(false)
